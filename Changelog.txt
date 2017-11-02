@@ -2,3 +2,6 @@ v1.1
 - Modificados los archivos de cabecera con información del alumno
 - Cambiado el nombre del directorio "practica4" por "practica5"
 - Añadido Changelog.txt
+
+v1.2
+- Modificados Esfera.cpp y Raqueta.cpp para darles movimiento
