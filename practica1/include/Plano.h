@@ -1,5 +1,5 @@
 // Plano.h: interface for the Plano class.
-//
+// Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
 
 #if !defined(AFX_PLANO_H__D5740FCC_9B1B_48DD_8642_77B83D54C6A2__INCLUDED_)

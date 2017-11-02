@@ -1,5 +1,5 @@
 // Mundo.h: interface for the CMundo class.
-//
+//Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
 
 #if !defined(AFX_MUNDO_H__9510340A_3D75_485F_93DC_302A43B8039A__INCLUDED_)

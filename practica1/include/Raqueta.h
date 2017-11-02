@@ -1,5 +1,5 @@
 // Raqueta.h: interface for the Raqueta class.
-//
+// Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
 
 #include "Plano.h"

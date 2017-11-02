@@ -1,5 +1,5 @@
 // Esfera.h: interface for the Esfera class.
-//
+//Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
 
 #if !defined(AFX_ESFERA_H__8D520BAF_8208_423B_BD91_29F6687FB9C3__INCLUDED_)

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/tenis.dir/tenis.cpp.o CMakeFiles/tenis.dir/Mundo.cpp.o CMakeFiles/tenis.dir/Esfera.cpp.o CMakeFiles/tenis.dir/Plano.cpp.o CMakeFiles/tenis.dir/Raqueta.cpp.o CMakeFiles/tenis.dir/Vector2D.cpp.o  -o tenis -rdynamic -lglut -lGL -lGLU 

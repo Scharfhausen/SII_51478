@@ -1,5 +1,5 @@
 // Vector2D.h: interface for the Vector2D class.
-//
+// Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
 
 #if !defined(AFX_VECTOR2D_H__EC63CCAD_9EB8_450F_A7F0_89A2DCBC2E28__INCLUDED_)
