@@ -123,6 +123,19 @@ tenis/fast:
 	$(MAKE) -f src/CMakeFiles/tenis.dir/build.make src/CMakeFiles/tenis.dir/build
 .PHONY : tenis/fast
 
+#=============================================================================
+# Target rules for targets named logger
+
+# Build rule for target.
+logger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 logger
+.PHONY : logger
+
+# fast build rule for target.
+logger/fast:
+	$(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/build
+.PHONY : logger/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +145,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tenis"
+	@echo "... logger"
 .PHONY : help
 
 

@@ -14,6 +14,7 @@
 
 #include "Esfera.h"
 #include "Raqueta.h"
+#include "DatosMemCompartida.h"
 
 class CMundo  
 {
@@ -33,9 +34,12 @@ public:
 	Plano fondo_dcho;
 	Raqueta jugador1;
 	Raqueta jugador2;
+	DatosMemCompartida datos;
+	DatosMemCompartida* datos_pointer;
 
 	int puntos1;
 	int puntos2;
+	
 };
 
 #endif // !defined(AFX_MUNDO_H__9510340A_3D75_485F_93DC_302A43B8039A__INCLUDED_)

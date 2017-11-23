@@ -65,6 +65,12 @@ string.h
 -
 math.h
 -
+fcntl.h
+-
+sys/stat.h
+-
+unistd.h
+-
 
 /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Plano.cpp
 Plano.h

@@ -10,6 +10,10 @@
 #include <string.h>
 #include <math.h>
 
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
@@ -21,7 +25,7 @@ CMundo::CMundo()
 
 CMundo::~CMundo()
 {
-
+	
 }
 
 void CMundo::InitGL()
@@ -129,7 +133,7 @@ void CMundo::OnTimer(int value)
 	jugador1.Rebota(esfera);
 	jugador2.Rebota(esfera);
 	if(fondo_izq.Rebota(esfera))
-	{
+	{	
 		esfera.centro.x=0;
 		esfera.centro.y=rand()/(float)RAND_MAX;
 		esfera.velocidad.x=2+2*rand()/(float)RAND_MAX;
@@ -145,6 +149,8 @@ void CMundo::OnTimer(int value)
 		esfera.velocidad.y=-2-2*rand()/(float)RAND_MAX;
 		puntos1++;
 	}
+
+	
 
 }
 
@@ -165,6 +171,7 @@ void CMundo::OnKeyboardDown(unsigned char key, int x, int y)
 void CMundo::Init()
 {
 	Plano p;
+
 //pared inferior
 	p.x1=-7;p.y1=-5;
 	p.x2=7;p.y2=-5;

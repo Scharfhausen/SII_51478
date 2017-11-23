@@ -35,5 +35,5 @@ void Esfera::Dibuja()
 void Esfera::Mueve(float t)
 {
 	centro=centro+velocidad*t;
-	if(radio>0) radio-=0.0005f;
+	//if(radio>0) radio-=0.0005f;
 }

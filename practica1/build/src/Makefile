@@ -125,6 +125,21 @@ tenis/fast:
 	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/tenis.dir/build.make src/CMakeFiles/tenis.dir/build
 .PHONY : tenis/fast
 
+# Convenience name for target.
+src/CMakeFiles/logger.dir/rule:
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/logger.dir/rule
+.PHONY : src/CMakeFiles/logger.dir/rule
+
+# Convenience name for target.
+logger: src/CMakeFiles/logger.dir/rule
+
+.PHONY : logger
+
+# fast build rule for target.
+logger/fast:
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/build
+.PHONY : logger/fast
+
 Esfera.o: Esfera.cpp.o
 
 .PHONY : Esfera.o
@@ -260,6 +275,33 @@ Vector2D.cpp.s:
 	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/tenis.dir/build.make src/CMakeFiles/tenis.dir/Vector2D.cpp.s
 .PHONY : Vector2D.cpp.s
 
+logger.o: logger.cpp.o
+
+.PHONY : logger.o
+
+# target to build an object file
+logger.cpp.o:
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/logger.cpp.o
+.PHONY : logger.cpp.o
+
+logger.i: logger.cpp.i
+
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cpp.i:
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/logger.cpp.i
+.PHONY : logger.cpp.i
+
+logger.s: logger.cpp.s
+
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cpp.s:
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/logger.cpp.s
+.PHONY : logger.cpp.s
+
 tenis.o: tenis.cpp.o
 
 .PHONY : tenis.o
@@ -296,6 +338,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tenis"
+	@echo "... logger"
 	@echo "... Esfera.o"
 	@echo "... Esfera.i"
 	@echo "... Esfera.s"
@@ -311,6 +354,9 @@ help:
 	@echo "... Vector2D.o"
 	@echo "... Vector2D.i"
 	@echo "... Vector2D.s"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... tenis.o"
 	@echo "... tenis.i"
 	@echo "... tenis.s"
