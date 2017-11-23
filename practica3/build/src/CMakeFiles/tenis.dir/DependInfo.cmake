@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Esfera.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/Esfera.cpp.o"
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Mundo.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/Mundo.cpp.o"
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Plano.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/Plano.cpp.o"
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Raqueta.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/Raqueta.cpp.o"
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Vector2D.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/Vector2D.cpp.o"
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/tenis.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/tenis.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Esfera.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/Esfera.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/Mundo.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Plano.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/Plano.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Raqueta.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/Raqueta.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Vector2D.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/Vector2D.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/tenis.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/tenis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

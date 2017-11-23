@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jorge/Documentos/Lab_SII/sii_51478/practica1/include 
+CXX_INCLUDES = -I/home/jorge/Documentos/Lab_SII/sii_51478/practica3/include 
 

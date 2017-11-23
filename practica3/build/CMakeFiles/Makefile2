@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica1
+CMAKE_SOURCE_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build
+CMAKE_BINARY_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build
 
 #=============================================================================
 # Directory level rules for directory src
@@ -86,7 +86,7 @@ src/preinstall:
 src/CMakeFiles/tenis.dir/all:
 	$(MAKE) -f src/CMakeFiles/tenis.dir/build.make src/CMakeFiles/tenis.dir/depend
 	$(MAKE) -f src/CMakeFiles/tenis.dir/build.make src/CMakeFiles/tenis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target tenis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target tenis"
 .PHONY : src/CMakeFiles/tenis.dir/all
 
 # Include target in all.
@@ -96,9 +96,9 @@ all: src/CMakeFiles/tenis.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/tenis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/tenis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/tenis.dir/rule
 
 # Convenience name for target.
@@ -123,7 +123,7 @@ clean: src/CMakeFiles/tenis.dir/clean
 src/CMakeFiles/logger.dir/all:
 	$(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/depend
 	$(MAKE) -f src/CMakeFiles/logger.dir/build.make src/CMakeFiles/logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=1,2 "Built target logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=1,2 "Built target logger"
 .PHONY : src/CMakeFiles/logger.dir/all
 
 # Include target in all.
@@ -133,9 +133,9 @@ all: src/CMakeFiles/logger.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/logger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/logger.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/logger.dir/rule
 
 # Convenience name for target.

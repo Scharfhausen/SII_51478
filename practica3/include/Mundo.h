@@ -6,6 +6,7 @@
 #define AFX_MUNDO_H__9510340A_3D75_485F_93DC_302A43B8039A__INCLUDED_
 
 #include <vector>
+#include <string>
 #include "Plano.h"
 
 #if _MSC_VER > 1000
@@ -38,6 +39,7 @@ public:
 	int puntos2;
 	char * myfifo;
 	int fd;
+	std::string msg1, msg2;
 
 };
 

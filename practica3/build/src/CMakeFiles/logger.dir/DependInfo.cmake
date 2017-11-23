@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/logger.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/logger.dir/logger.cpp.o"
+  "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/logger.cpp" "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/logger.dir/logger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

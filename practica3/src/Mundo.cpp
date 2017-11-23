@@ -2,6 +2,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 #include <fstream>
+#include <sstream>
 #include "Mundo.h"
 #include "glut.h"
 
@@ -140,7 +141,10 @@ void CMundo::OnTimer(int value)
 		esfera.velocidad.y=2+2*rand()/(float)RAND_MAX;
 		puntos2++;
 //Escritura del FIFO
-		write(fd,"Punto para el jugador 2",sizeof("Punto para el jugador 2"));
+		std::ostringstream mensaje1;
+		mensaje1<<"Jugador 2 marca. Total: "<<puntos2;
+		msg1=mensaje1.str();		
+		write(fd,msg1.c_str(),sizeof(msg1));
 	}
 
 	if(fondo_dcho.Rebota(esfera))
@@ -151,7 +155,10 @@ void CMundo::OnTimer(int value)
 		esfera.velocidad.y=-2-2*rand()/(float)RAND_MAX;
 		puntos1++;
 //Escritura del FIFO
-		write(fd,"Punto para el jugador 1",sizeof("Punto para el jugador 1"));
+		std::ostringstream mensaje2;
+		mensaje2<<"Jugador 1 marca. Total: "<<puntos1;
+		msg2=mensaje2.str();		
+		write(fd,msg2.c_str(),sizeof(msg2));
 	}
 
 	

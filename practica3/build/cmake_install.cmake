@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Documentos/Lab_SII/sii_51478/practica1
+# Install script for directory: /home/jorge/Documentos/Lab_SII/sii_51478/practica3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/cmake_install.cmake")
+  include("/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src
+# Install script for directory: /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

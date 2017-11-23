@@ -3,7 +3,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#define MAX_BUF 1024
+#define MAX_BUF 4096
 
 int main()
 {
@@ -14,10 +14,10 @@ int main()
 
     /* open, read, and display the message from the FIFO */
     fd = open(myfifo, O_RDONLY);
-    sleep(10);
+    //sleep(10);
     while(valor!=-1){
     valor= read(fd, buf, MAX_BUF);
-    printf("Received: %s\n", buf);
+    printf("%s\n", buf);
     }
     close(fd);
     unlink(myfifo);

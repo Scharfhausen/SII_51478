@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica1
+CMAKE_SOURCE_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build
+CMAKE_BINARY_DIR = /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/tenis.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/tenis.dir/flags.make
 
 src/CMakeFiles/tenis.dir/tenis.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/tenis.cpp.o: ../src/tenis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/tenis.dir/tenis.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/tenis.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/tenis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/tenis.dir/tenis.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/tenis.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/tenis.cpp
 
 src/CMakeFiles/tenis.dir/tenis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/tenis.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/tenis.cpp > CMakeFiles/tenis.dir/tenis.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/tenis.cpp > CMakeFiles/tenis.dir/tenis.cpp.i
 
 src/CMakeFiles/tenis.dir/tenis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/tenis.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/tenis.cpp -o CMakeFiles/tenis.dir/tenis.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/tenis.cpp -o CMakeFiles/tenis.dir/tenis.cpp.s
 
 src/CMakeFiles/tenis.dir/tenis.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/tenis.dir/tenis.cpp.o.provides.build: src/CMakeFiles/tenis.dir/te
 
 src/CMakeFiles/tenis.dir/Mundo.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/Mundo.cpp.o: ../src/Mundo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/tenis.dir/Mundo.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Mundo.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Mundo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/tenis.dir/Mundo.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Mundo.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.cpp
 
 src/CMakeFiles/tenis.dir/Mundo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/Mundo.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Mundo.cpp > CMakeFiles/tenis.dir/Mundo.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.cpp > CMakeFiles/tenis.dir/Mundo.cpp.i
 
 src/CMakeFiles/tenis.dir/Mundo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/Mundo.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Mundo.cpp -o CMakeFiles/tenis.dir/Mundo.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.cpp -o CMakeFiles/tenis.dir/Mundo.cpp.s
 
 src/CMakeFiles/tenis.dir/Mundo.cpp.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/tenis.dir/Mundo.cpp.o.provides.build: src/CMakeFiles/tenis.dir/Mu
 
 src/CMakeFiles/tenis.dir/Esfera.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/Esfera.cpp.o: ../src/Esfera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/tenis.dir/Esfera.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Esfera.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Esfera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/tenis.dir/Esfera.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Esfera.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Esfera.cpp
 
 src/CMakeFiles/tenis.dir/Esfera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/Esfera.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Esfera.cpp > CMakeFiles/tenis.dir/Esfera.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Esfera.cpp > CMakeFiles/tenis.dir/Esfera.cpp.i
 
 src/CMakeFiles/tenis.dir/Esfera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/Esfera.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Esfera.cpp -o CMakeFiles/tenis.dir/Esfera.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Esfera.cpp -o CMakeFiles/tenis.dir/Esfera.cpp.s
 
 src/CMakeFiles/tenis.dir/Esfera.cpp.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/tenis.dir/Esfera.cpp.o.provides.build: src/CMakeFiles/tenis.dir/E
 
 src/CMakeFiles/tenis.dir/Plano.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/Plano.cpp.o: ../src/Plano.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/tenis.dir/Plano.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Plano.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Plano.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/tenis.dir/Plano.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Plano.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Plano.cpp
 
 src/CMakeFiles/tenis.dir/Plano.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/Plano.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Plano.cpp > CMakeFiles/tenis.dir/Plano.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Plano.cpp > CMakeFiles/tenis.dir/Plano.cpp.i
 
 src/CMakeFiles/tenis.dir/Plano.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/Plano.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Plano.cpp -o CMakeFiles/tenis.dir/Plano.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Plano.cpp -o CMakeFiles/tenis.dir/Plano.cpp.s
 
 src/CMakeFiles/tenis.dir/Plano.cpp.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/tenis.dir/Plano.cpp.o.provides.build: src/CMakeFiles/tenis.dir/Pl
 
 src/CMakeFiles/tenis.dir/Raqueta.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/Raqueta.cpp.o: ../src/Raqueta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/tenis.dir/Raqueta.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Raqueta.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Raqueta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/tenis.dir/Raqueta.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Raqueta.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Raqueta.cpp
 
 src/CMakeFiles/tenis.dir/Raqueta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/Raqueta.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Raqueta.cpp > CMakeFiles/tenis.dir/Raqueta.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Raqueta.cpp > CMakeFiles/tenis.dir/Raqueta.cpp.i
 
 src/CMakeFiles/tenis.dir/Raqueta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/Raqueta.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Raqueta.cpp -o CMakeFiles/tenis.dir/Raqueta.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Raqueta.cpp -o CMakeFiles/tenis.dir/Raqueta.cpp.s
 
 src/CMakeFiles/tenis.dir/Raqueta.cpp.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/tenis.dir/Raqueta.cpp.o.provides.build: src/CMakeFiles/tenis.dir/
 
 src/CMakeFiles/tenis.dir/Vector2D.cpp.o: src/CMakeFiles/tenis.dir/flags.make
 src/CMakeFiles/tenis.dir/Vector2D.cpp.o: ../src/Vector2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/tenis.dir/Vector2D.cpp.o"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Vector2D.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Vector2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/tenis.dir/Vector2D.cpp.o"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tenis.dir/Vector2D.cpp.o -c /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Vector2D.cpp
 
 src/CMakeFiles/tenis.dir/Vector2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tenis.dir/Vector2D.cpp.i"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Vector2D.cpp > CMakeFiles/tenis.dir/Vector2D.cpp.i
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Vector2D.cpp > CMakeFiles/tenis.dir/Vector2D.cpp.i
 
 src/CMakeFiles/tenis.dir/Vector2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tenis.dir/Vector2D.cpp.s"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src/Vector2D.cpp -o CMakeFiles/tenis.dir/Vector2D.cpp.s
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Vector2D.cpp -o CMakeFiles/tenis.dir/Vector2D.cpp.s
 
 src/CMakeFiles/tenis.dir/Vector2D.cpp.o.requires:
 
@@ -221,8 +221,8 @@ src/tenis: src/CMakeFiles/tenis.dir/Raqueta.cpp.o
 src/tenis: src/CMakeFiles/tenis.dir/Vector2D.cpp.o
 src/tenis: src/CMakeFiles/tenis.dir/build.make
 src/tenis: src/CMakeFiles/tenis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tenis"
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tenis.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tenis"
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tenis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/tenis.dir/build: src/tenis
@@ -239,10 +239,10 @@ src/CMakeFiles/tenis.dir/requires: src/CMakeFiles/tenis.dir/Vector2D.cpp.o.requi
 .PHONY : src/CMakeFiles/tenis.dir/requires
 
 src/CMakeFiles/tenis.dir/clean:
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src && $(CMAKE_COMMAND) -P CMakeFiles/tenis.dir/cmake_clean.cmake
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src && $(CMAKE_COMMAND) -P CMakeFiles/tenis.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/tenis.dir/clean
 
 src/CMakeFiles/tenis.dir/depend:
-	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Documentos/Lab_SII/sii_51478/practica1 /home/jorge/Documentos/Lab_SII/sii_51478/practica1/src /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src /home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Documentos/Lab_SII/sii_51478/practica3 /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src /home/jorge/Documentos/Lab_SII/sii_51478/practica3/build/src/CMakeFiles/tenis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/tenis.dir/depend
 
