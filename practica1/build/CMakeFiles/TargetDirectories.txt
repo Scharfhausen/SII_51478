@@ -1,6 +1,0 @@
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles/edit_cache.dir
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/CMakeFiles/rebuild_cache.dir
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/rebuild_cache.dir
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/edit_cache.dir
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/tenis.dir
-/home/jorge/Documentos/Lab_SII/sii_51478/practica1/build/src/CMakeFiles/logger.dir

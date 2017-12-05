@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/bot.dir/bot.cpp.o  -o bot -rdynamic 
