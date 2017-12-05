@@ -6,6 +6,7 @@ src/CMakeFiles/tenis.dir/Esfera.cpp.o: ../include/Vector2D.h
 src/CMakeFiles/tenis.dir/Esfera.cpp.o: ../include/glut.h
 src/CMakeFiles/tenis.dir/Esfera.cpp.o: ../src/Esfera.cpp
 
+src/CMakeFiles/tenis.dir/Mundo.cpp.o: ../include/DatosMemCompartida.h
 src/CMakeFiles/tenis.dir/Mundo.cpp.o: ../include/Esfera.h
 src/CMakeFiles/tenis.dir/Mundo.cpp.o: ../include/Mundo.h
 src/CMakeFiles/tenis.dir/Mundo.cpp.o: ../include/Plano.h
@@ -29,6 +30,7 @@ src/CMakeFiles/tenis.dir/Raqueta.cpp.o: ../src/Raqueta.cpp
 src/CMakeFiles/tenis.dir/Vector2D.cpp.o: ../include/Vector2D.h
 src/CMakeFiles/tenis.dir/Vector2D.cpp.o: ../src/Vector2D.cpp
 
+src/CMakeFiles/tenis.dir/tenis.cpp.o: ../include/DatosMemCompartida.h
 src/CMakeFiles/tenis.dir/tenis.cpp.o: ../include/Esfera.h
 src/CMakeFiles/tenis.dir/tenis.cpp.o: ../include/Mundo.h
 src/CMakeFiles/tenis.dir/tenis.cpp.o: ../include/Plano.h

@@ -124,6 +124,19 @@ tenis/fast:
 .PHONY : tenis/fast
 
 #=============================================================================
+# Target rules for targets named bot
+
+# Build rule for target.
+bot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bot
+.PHONY : bot
+
+# fast build rule for target.
+bot/fast:
+	$(MAKE) -f src/CMakeFiles/bot.dir/build.make src/CMakeFiles/bot.dir/build
+.PHONY : bot/fast
+
+#=============================================================================
 # Target rules for targets named logger
 
 # Build rule for target.
@@ -145,6 +158,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tenis"
+	@echo "... bot"
 	@echo "... logger"
 .PHONY : help
 

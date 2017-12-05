@@ -18,6 +18,8 @@
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
+ 
+char* proyeccion;
 
 CMundo::CMundo()
 {
@@ -140,11 +142,10 @@ void CMundo::OnTimer(int value)
 		esfera.velocidad.x=2+2*rand()/(float)RAND_MAX;
 		esfera.velocidad.y=2+2*rand()/(float)RAND_MAX;
 		puntos2++;
-//Escritura del FIFO
-		std::ostringstream mensaje1;
-		mensaje1<<"Jugador 2 marca. Total: "<<puntos2;
-		msg1=mensaje1.str();		
-		write(fd,msg1.c_str(),sizeof(msg1));
+	//Escritura del FIFO
+		char cad[200];
+		sprintf(cad,"Jugador 2 marca 1 punto, lleva %d", puntos2);
+		write(fd,cad,strlen(cad)+1);
 	}
 
 	if(fondo_dcho.Rebota(esfera))
@@ -154,11 +155,68 @@ void CMundo::OnTimer(int value)
 		esfera.velocidad.x=-2-2*rand()/(float)RAND_MAX;
 		esfera.velocidad.y=-2-2*rand()/(float)RAND_MAX;
 		puntos1++;
-//Escritura del FIFO
-		std::ostringstream mensaje2;
-		mensaje2<<"Jugador 1 marca. Total: "<<puntos1;
-		msg2=mensaje2.str();		
-		write(fd,msg2.c_str(),sizeof(msg2));
+	//Escritura del FIFO
+		char cad[200];
+		sprintf(cad,"Jugador 1 marca 1 punto, lleva %d", puntos1);
+		write(fd,cad,strlen(cad)+1);
+	}
+	
+	//Tambien debemos actualizar los valores reales en nuestra proyección del fichero
+	pMemComp->esfera=esfera;
+	pMemComp->raqueta1=jugador1;
+	pMemComp->raqueta2=jugador2;
+	//Implementación sobre el bot. Recibimos con un switch case el valor de la acción que se proyecta desde el bot en el neuvo fichero proyectado.
+	switch(pMemComp->accion1)
+	{
+		case 1: jugador1.velocidad.y=4; 			
+			break;
+		case 0: break;
+		case -1: jugador1.velocidad.y=-4;
+			break;
+	}
+	if(contador<0)
+	{
+		switch(pMemComp->accion2)
+
+		{
+
+			case 1: jugador2.velocidad.y=4; 			
+				break;
+
+			case 0: break;
+
+			case -1: jugador2.velocidad.y=-4;
+
+				break;
+
+		}	
+	}
+
+	//Finalización del juego por límite de puntos e implementacion del mensaje de la tuberia con el ganador.
+	int CurrState=0;
+	int PrevState=0;
+	char cadena[200];
+	if(puntos1==3)
+	{
+		CurrState=1;
+		if(CurrState!=PrevState)
+		{
+			sprintf(cadena,"El jugador 1 consigue 3 puntos y gana.");
+			write(fd,cadena,strlen(cadena)+1);
+		}
+		PrevState=CurrState;
+		exit(0);
+	}
+	if(puntos2==3)
+	{
+		CurrState=1;
+		if(CurrState!=PrevState)
+		{
+			sprintf(cadena,"El jugador 2 consigue 3 puntos y gana.");
+			write(fd,cadena,strlen(cadena)+1);
+		}
+		PrevState=CurrState;
+		exit(0);
 	}
 
 	
@@ -188,6 +246,17 @@ void CMundo::Init()
 	myfifo="/tmp/myfifo";
 	mkfifo(myfifo,0666);
 	fd=open(myfifo, O_WRONLY);
+
+//Para el BOT
+//Fichero proyectado en memoria
+	int file=open("/tmp/datosBot.txt",O_RDWR|O_CREAT|O_TRUNC, 0777); //Creacion del fichero
+	write(file,&MemComp,sizeof(MemComp)); //Escribimos en el fichero
+	proyeccion=(char*)mmap(NULL,sizeof(MemComp),PROT_WRITE|PROT_READ,MAP_SHARED,file,0); //Asignamos al puntero de proyeccion el lugar donde esta proyectado el fichero
+	close(file); //Cerramos el fichero
+	pMemComp=(DatosMemCompartida*)proyeccion; //Asignamos el valor del puntero de proyeccion al puntero de Datos
+	pMemComp->accion1=0; //De inicio, no queremos que haya ninguna acción.
+	pMemComp->accion2=0;
+
 	
 
 //pared inferior

@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/DatosMemCompartida.h
+Esfera.h
+../include/Esfera.h
+Raqueta.h
+../include/Raqueta.h
+
 ../include/Esfera.h
 Vector2D.h
 ../include/Vector2D.h
@@ -21,6 +27,10 @@ Esfera.h
 ../include/Esfera.h
 Raqueta.h
 ../include/Raqueta.h
+DatosMemCompartida.h
+../include/DatosMemCompartida.h
+sys/mman.h
+-
 
 ../include/Plano.h
 Esfera.h
@@ -55,8 +65,6 @@ glut.h
 /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.cpp
 fstream
 -
-sstream
--
 Mundo.h
 /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Mundo.h
 glut.h
@@ -69,11 +77,7 @@ string.h
 -
 math.h
 -
-fcntl.h
--
-sys/stat.h
--
-unistd.h
+error.h
 -
 
 /home/jorge/Documentos/Lab_SII/sii_51478/practica3/src/Plano.cpp

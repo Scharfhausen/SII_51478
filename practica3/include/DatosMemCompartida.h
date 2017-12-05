@@ -6,5 +6,7 @@ class DatosMemCompartida
 public:         
       Esfera esfera;
       Raqueta raqueta1;
-      int accion; //1 arriba, 0 nada, -1 abajo
+      Raqueta raqueta2;
+      int accion1; //1 arriba, 0 nada, -1 abajo
+      int accion2; //1 arriba, 0 nada, -1 abajo
 };

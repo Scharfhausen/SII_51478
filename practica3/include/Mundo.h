@@ -1,3 +1,4 @@
+
 // Mundo.h: interface for the CMundo class.
 //Editado por Jorge Scharfhausen Romero
 //////////////////////////////////////////////////////////////////////
@@ -15,6 +16,11 @@
 
 #include "Esfera.h"
 #include "Raqueta.h"
+//Includes para la memoria compartida
+
+#include "DatosMemCompartida.h"
+#include <sys/mman.h>
+
 
 class CMundo  
 {
@@ -39,8 +45,16 @@ public:
 	int puntos2;
 	char * myfifo;
 	int fd;
-	std::string msg1, msg2;
+	//Creación del atributo de memoria compartida
+	DatosMemCompartida MemComp;
+	DatosMemCompartida* pMemComp;
+
+	float contador=250;
+	
+	
 
 };
 
 #endif // !defined(AFX_MUNDO_H__9510340A_3D75_485F_93DC_302A43B8039A__INCLUDED_)
+
+
