@@ -204,7 +204,7 @@ void CMundo::OnTimer(int value)
 			sprintf(cadena,"El jugador 1 consigue 3 puntos y gana.");
 			write(fd,cadena,strlen(cadena)+1);
 		}
-		PrevState=CurrState;
+		//PrevState=CurrState;
 		exit(0);
 	}
 	if(puntos2==3)
@@ -215,7 +215,7 @@ void CMundo::OnTimer(int value)
 			sprintf(cadena,"El jugador 2 consigue 3 puntos y gana.");
 			write(fd,cadena,strlen(cadena)+1);
 		}
-		PrevState=CurrState;
+		//PrevState=CurrState;
 		exit(0);
 	}
 
