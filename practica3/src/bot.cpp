@@ -42,7 +42,7 @@
 	while(1)
 	{
 
-		usleep(25000);  
+		usleep(25000);  //Se suspende durante 25 milisegundos
 		float posRaqueta1;
 		float posRaqueta2;
 		posRaqueta1=((pMemComp->raqueta1.y2+pMemComp->raqueta1.y1)/2);
