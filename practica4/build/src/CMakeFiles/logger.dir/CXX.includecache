@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/src/logger.cpp
+stdio.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+

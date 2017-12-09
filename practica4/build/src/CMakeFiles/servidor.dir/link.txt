@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/servidor.dir/servidor.cpp.o CMakeFiles/servidor.dir/MundoServidor.cpp.o CMakeFiles/servidor.dir/Esfera.cpp.o CMakeFiles/servidor.dir/Plano.cpp.o CMakeFiles/servidor.dir/Raqueta.cpp.o CMakeFiles/servidor.dir/Vector2D.cpp.o  -o servidor -rdynamic -lglut -lGL -lGLU -lpthread 

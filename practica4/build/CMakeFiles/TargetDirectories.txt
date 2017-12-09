@@ -1,0 +1,8 @@
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/CMakeFiles/edit_cache.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/CMakeFiles/rebuild_cache.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/edit_cache.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/rebuild_cache.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/servidor.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/bot.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/logger.dir
+/home/jorge/Documentos/Lab_SII/sii_51478/practica4/build/src/CMakeFiles/cliente.dir

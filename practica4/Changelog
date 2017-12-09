@@ -1,0 +1,39 @@
+Changelog:
+
+Practica 1: 
+-Renombrado practica 4 a practica 5
+- Añadido el nombre en las fuentes del codigo proporcionado
+-Creado ejecutalbe de "tenis" con make
+
+Practica 2:
+-Se ha creado "branch" llamada practica2
+-Se ha cambiado el codigo del juego del Tenis segun se pedia. Algunos cambios son los siguentes:
+ *se ha creado ListaEsferas y todas las esferas se añaden a la lista
+ *se ha creado un vector llamado "disparos" en Mundo.cpp que mantiene los disparos (es una lista tambien)
+ *las esferas se van añadiendo cada cierto tiempo
+ *los disparos que impactan en el otro jugador, reducen su raqueta a la mitad
+ *las esferas van cambiando de tamaño 
+
+Practica 3:
+
+-Se crea logger.cpp
+-Modificar Mundo.h para añadir la tuberia y los archivos necesarios para trabajar con tuberias
+-Se crea DatosMemCompartida.h en el directorio "include"
+-En Mundo.h se incluyen las cabeceras y un atributo de Memoria Compartida
+-Se crea bot.cpp
+-Se implementa codigo necesario para la funcionalidad pedida
+-Se añade a CMakeLists el bot.cpp y el logger.cpp como executables
+-Se comprueba el funcinamiento arrancando cada executable en "background"
+
+Practica 4:
+
+1. Crear MundoCliente.cpp y MundoServidor.cpp como copia de Mundo.cpp
+2. Crear MundoCliente.h y MundoServidor.h como copia de Mundo.h
+3. Crear cliente.cpp y servidor.cpp como copia de tenis.cpp
+4. Eliminar Mundo.cpp, tenis.cpp y Mundo.h
+5. Modificar acorde CMakeLists.txt para generar los 2 ejecutables: servidor y cliente
+(Logger se comunica con "servidor" y Bot con "cliente")
+6. Envio de coordenadas del servidor al cliente mediante tuberia FIFO como se propone en el guion
+7. Envio de las teclas pulsadas del "cliente" al "servidor" como se propone en el guion
+Orden de arranque en background por ejemplo: bot,logger,cliente,servidor
+
