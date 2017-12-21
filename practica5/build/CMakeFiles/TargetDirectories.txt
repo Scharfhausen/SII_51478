@@ -1,0 +1,8 @@
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/CMakeFiles/edit_cache.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/CMakeFiles/rebuild_cache.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/edit_cache.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/rebuild_cache.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/servidor.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/bot.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/logger.dir
+/home/jorge/Documentos/Lab_SII/azornoza-sii_51540-4046e0431dfa/practica1/build/src/CMakeFiles/cliente.dir

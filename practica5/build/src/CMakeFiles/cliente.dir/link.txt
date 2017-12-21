@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/cliente.dir/cliente.cpp.o CMakeFiles/cliente.dir/MundoCliente.cpp.o CMakeFiles/cliente.dir/Esfera.cpp.o CMakeFiles/cliente.dir/Plano.cpp.o CMakeFiles/cliente.dir/Raqueta.cpp.o CMakeFiles/cliente.dir/Vector2D.cpp.o CMakeFiles/cliente.dir/Socket.cpp.o  -o cliente -rdynamic -lglut -lGL -lGLU -lpthread 
